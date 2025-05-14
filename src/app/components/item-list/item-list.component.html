@@ -1,0 +1,9 @@
+<div class="container">
+  <h2 class="heading">Items List</h2>
+  <ul>
+    <li *ngFor="let item of items" class="item-row">
+      <span class="item-text">{{ item.name }} - ₹{{ item.price }}</span>
+      <button (click)="deleteItem(item._id)" class="delete-button">Delete</button>
+    </li>
+  </ul>
+</div>

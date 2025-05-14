@@ -1,0 +1,39 @@
+/* Push the whole container a bit lower */
+.container {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 100px auto; /* ⬅ pushes it down from the top */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional styling for the alert */
+.alert {
+  color: red;
+  margin-top: 10px;
+}
+
+/* General input and button styles */
+input,
+button {
+  margin-top: 10px;
+  padding: 8px; /* ⬅ increase for taller input boxes */
+  width: 100%;
+  font-size: 16px; /* ⬅ bigger text inside boxes */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Optional: distinct style for the submit button */
+button {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: darkgreen;
+}

@@ -1,0 +1,9 @@
+<div class="container"><br>
+  <h2>Add Grocery Item</h2>
+  <label>Name:</label>
+  <input type="text" [(ngModel)]="item.name">
+  <label>Price:</label>
+  <input type="number" [(ngModel)]="item.price">
+ <button (click)="addItem()">Add Item</button>
+  <div *ngIf="alertMessage" class="alert">{{ alertMessage }}</div>
+</div>

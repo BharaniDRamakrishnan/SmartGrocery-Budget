@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e1e1e; /* dark background */
+  padding: 28px 30px;
+  color: white;
+}
+
+/* Left-side title */
+.navbar-brand {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Right-side nav links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  color: yellow;
+}

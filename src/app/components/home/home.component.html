@@ -1,0 +1,11 @@
+<div class="container">
+  <h2>Welcome to Smart Grocery Budget</h2><br>
+
+  <label for="budget">Set Your Budget:</label>
+  <input type="number" [(ngModel)]="budgetAmount" id="budget" />
+
+  <button (click)="setBudget()">Submit</button>
+
+  <p class="success" *ngIf="successMessage">{{ successMessage }}</p>
+  <p class="error" *ngIf="errorMessage">{{ errorMessage }}</p>
+</div>
